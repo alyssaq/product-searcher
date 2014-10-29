@@ -1,0 +1,6 @@
+*.ipynb_checkpoints
+*.swp
+*.pyc
+node_modules
+.sass-cache
+.tmp
