@@ -4,7 +4,7 @@ module.exports = {
   },
   js: {
     files: {
-      src: 'src/**/*.js'
+      src: 'src/js/**/*.js'
     }
   },
   grunt: {
