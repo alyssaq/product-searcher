@@ -1,0 +1,9 @@
+default:
+  - 'clean'
+  - 'concurrent:test'
+  - 'concurrent:build'
+  - 'concurrent:optimize'
+dev:
+  - 'default'
+  - 'connect:dev'
+  - 'watch'
