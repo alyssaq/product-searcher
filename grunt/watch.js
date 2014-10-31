@@ -1,7 +1,7 @@
 module.exports = {
   js: {
     files: ['src/**/*.js'],
-    tasks: ['jscs:js', 'lintspaces:js', 'browserify']
+    tasks: ['jshint:js', 'jscs:js', 'lintspaces:js', 'browserify']
   },
   css: {
     files: ['src/**/*.styl'],
@@ -13,7 +13,7 @@ module.exports = {
   },
   grunt: {
     files: ['grunt/*.{js,yml}'],
-    tasks: ['jscs:grunt', 'lintspaces:grunt']
+    tasks: ['jshint:grunt', 'jscs:grunt', 'lintspaces:grunt']
   },
   meta: {
     files: ['*.{json,js,yml}'],

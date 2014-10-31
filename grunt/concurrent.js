@@ -1,5 +1,5 @@
 module.exports = {
-  test: ['jscs', 'lintspaces'],
+  test: ['jshint', 'jscs', 'lintspaces'],
   build: ['browserify', 'jade', 'stylus'],
   optimize: ['exorcise', 'newer:imagemin']
 };
