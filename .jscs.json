@@ -1,0 +1,4 @@
+{
+  "requireSpaceBeforeBlockStatements": true,
+  "requireSpacesInConditionalExpression": true
+}
